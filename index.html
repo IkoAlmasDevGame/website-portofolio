@@ -1,24 +1,275 @@
 <!-- Pembuatan Website Portofolio -->
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio Website</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="styles-min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles-min.css"/>
   </head>
 
-  <body class="bg-secondary">
-    <div class=""></div>
+  <body class="bg-secondary" id="beranda">
+    <header class="navbar navbar-expand-lg bg-body-tertiary position-sticky sticky-sm-bottom">
+      <div class="container-fluid">
+        <a href="index.html" aria-current="page" class="navbar-brand fs-4 display-4">Portofolio</a>
+        <button class='navbar-toggler' data-bs-toggle='collapse' data-bs-target='#navbarSupportNavigation'>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarSupportNavigation">
+          <ul class="navbar-nav ms-auto mb-1 mb-lg-0">
+            <li class="nav-item">
+              <a href="index.html" aria-current="page" class="nav-link fw-normal fst-normal fs-5 display-5 active">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" aria-current="page" class="nav-link fw-normal fst-normal fs-5 display-5">About Profile</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projectwebsite" aria-current="page" class="nav-link fw-normal fst-normal fs-5 display-5">Project Website</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- Layout Start -->
+    <section class="min-vh-99">
+      <div class="col-md-12 col-lg-12 bg-danger rounded-1">
+        <div class="d-flex justify-content-end align-items-start flex-wrap">
+          <header class="container-fluid">
+            <h4 class="fs-3 display-4 text-light fw-bold fst-normal">Iko Almas Dev Game</h4>
+          </header>
+          <div class="d-flex justify-content-center align-items-center flex-wrap gap-2 text-center">
+            <a href="https://github.com/IkoAlmasDevGame/" aria-current="page" class="text-light text-decoration-none">
+              <i class="fa-brands fa-github fa-2x icon"></i>
+              <div class="fs-6 fst-normal fw-normal text-light">github</div>
+            </a>
+            <a href="https://youtube.com/@ikoalmasofficial" aria-current="page" class="text-light text-decoration-none">
+              <i class="fa-brands fa-youtube fa-2x icon-youtube"></i>
+              <div class="fs-6 fst-normal fw-normal text-light">youtube</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center d-flex justify-content-center align-items-center flex-wrap p-5 m-5">
+        <a href=#about class="text-decoration-none text-dark">
+          <i class="fa fa-arrow-down fa-3x bounce"></i>
+          <div class="fs-2 fst-normal fw-bold text-light">Click Here</div>
+        </a>
+      </div>
+    </section>
+    <!-- Layout 2 -->
+     <section id="about" class="min-vh-100">
+      <div class="container-fluid">
+        <div class="bg-body-tertiary py-1 my-1 col-md-11 col-lg-12">
+          <div class="card border-0">
+            <div class="card-header">
+              <h4 class="card-title text-start display-4 fst-normal">About Profile</h4>
+            </div>
+            <div class="card-body">
+              <div class="card-group">
+                <p class="fs-1 fst-normal fw-light">Assalamualaikum semua, perkenalkan nama saya Iko almas qistan saya bekerja sebagai freelancer dibidang Ilmu Teknologi (Pembuatan website) yaitu dibagian full stack developer website.</p>
+                <p class="fs-1 fst-normal fw-light">Domisili saya berasal dari jakarta, dan saya lulusan di universitas ternama yaitu Universitas Bina Sarana Informatika.</p>
+              </div>
+              <div class="card-footer">
+                <p class="fs-2 fst-normal fw-light text-end">Sekian Terima Kasih</p>
+                <p class="fs-2 fst-normal fw-light text-end">واسالامواليكوم</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- Layout 2 -->
+    <!-- Layout 3 -->
+     <section class="min-vh-100" id="projectwebsite">
+      <div class="col-md-11 col-lg-12">
+        <div class="container-fluid py-2 my-2 bg-body-tertiary">
+          <div class="d-flex justify-content-between align-items-center flex-wrap gap-1">
+            <div class="col-sm-3 col-md-4">
+              <div class="card">
+                <div class="card-header">
+                  <h4 class="card-title">Sistem Informasi Inventori</h4>
+                </div>
+                <div class="card-body">
+                  <p>Fitur Sistem Informasi Inventori (PHP Native) : </p>
+                  <div class="card-group">
+                    <ul>
+                      <ol type="1">
+                        <li>Barang masuk</li>
+                        <li>Barang keluar</li>
+                        <li>Gudang</li>
+                        <li>Jenis barang</li>
+                        <li>Laporan</li>
+                        <li>Satuan barang</li>
+                        <li>Pengaturan</li>
+                        <li>Supplier</li>
+                      </ol>
+                    </ul>
+                  </div>
+                  <div class="card-footer">
+                    <div class="text-end">
+                      <a href="https://github.com/IkoAlmasDevGame/sistem_informasi-inventori" target="_blank" class="btn btn-primary" aria-current="page">
+                        Go To Page
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-4">
+              <div class="card">
+                <div class="card-header">
+                  <h4 class="card-title">aplikasi pos kasir</h4>
+                </div>
+                <div class="card-body">
+                  <p>Fitur aplikasi pos kasir (PHP Native) : </p>
+                  <div class="card-group">
+                    <ul class="navbar-nav navbar-nav-scroll">
+                      <ol type="1">
+                        <li>Laporan</li>
+                        <li>Barang</li>
+                        <li>Kategori</li>
+                        <li>Satuan</li>
+                        <li>Pengaturan Toko</li>
+                        <li>Transaksi Kasir</li>
+                        <li>Pengguna</li>
+                      </ol>
+                    </ul>
+                  </div>
+                  <div class="card-footer">
+                    <div class="text-end">
+                      <a href="https://github.com/IkoAlmasDevGame/aplikasi-pos-kasir" target="_blank" class="btn btn-primary" aria-current="page">
+                        Go To Page
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-4">
+              <div class="card">
+                <div class="card-header">
+                  <h4 class="card-title">Aplikasi penjualan online</h4>
+                </div>
+                <div class="card-body">
+                  <p>Fitur Aplikasi penjualan online (PHP Native) : </p>
+                  <div class="card-group">
+                    <ul class="navbar-nav navbar-nav-scroll">
+                      <ol type="1">
+                        <li>Data Master Admin (Barang/Pengguna/Satuan/Kategori)</li>
+                        <li>Data Master Pengguna (Belanja/Keranjang)</li>
+                        <li>Data Transaksi</li>
+                        <li>Pengaturan Website</li>
+                      </ol>
+                    </ul>
+                  </div>
+                  <div class="card-footer">
+                    <div class="text-end">
+                      <a href="https://github.com/IkoAlmasDevGame/aplikasi-penjualan-online" target="_blank" class="btn btn-primary" aria-current="page">
+                        Go To Page
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-4">
+              <div class="card">
+                <div class="card-header">
+                  <h4 class="card-title">Sistem Informasi Pelanggaran Pondok Pesantren Cilegon versi 2</h4>
+                </div>
+                <div class="card-body">
+                  <p>Fitur Sistem Informasi Pelanggaran Pondok Pesantren Cilegon versi 2 (PHP Native) : </p>
+                  <div class="card-group">
+                    <ul class="navbar-nav navbar-nav-scroll">
+                      <ol type="1">
+                        <li>Data Master Keamanan</li>
+                        <li>Data Master Ketua</li>
+                        <li>Data Laporan</li>
+                        <li>Data Master Pelanggaran</li>
+                        <li>Data Master Pengguna</li>
+                        <li>Data Master Sanksi</li>
+                        <li>Data Master Santri</li>
+                        <li>Pengaturan</li>
+                      </ol>
+                    </ul>
+                  </div>
+                  <div class="card-footer">
+                    <div class="text-end">
+                      <a href="https://github.com/IkoAlmasDevGame/sistem_informasi-pesantren" target="_blank" class="btn btn-primary" aria-current="page">
+                        Go To Page
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-4">
+              <div class="card">
+                <div class="card-header">
+                  <h4 class="card-title">Aplikasi Pembayaran Sumbangan Pembinaan Pendidikan</h4>
+                </div>
+                <div class="card-body">
+                  <p>Fitur Aplikasi Pembayaran Sumbangan Pembinaan Pendidikan (PHP Native) : </p>
+                  <div class="card-group">
+                    <ul class="navbar-nav navbar-nav-scroll">
+                      <ol type="1">
+                        <li>Data Master Kelas</li>
+                        <li>Data Laporan</li>
+                        <li>Transaksi Pembayaran</li>
+                        <li>Data Petugas</li>
+                        <li>Pengaturan</li>
+                        <li>Data Master Siswa</li>
+                        <li>Data Master SPP</li>
+                      </ol>
+                    </ul>
+                  </div>
+                  <div class="card-footer">
+                    <div class="text-end">
+                      <a href="https://github.com/IkoAlmasDevGame/aplikasi_pembayaran_spp" target="_blank" class="btn btn-primary" aria-current="page">
+                        Go To Page
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-md-4">
+              <div class="card">
+                <div class="card-header">
+                  <h4 class="card-title">Aplikasi Buku Tamu</h4>
+                </div>
+                <div class="card-body">
+                  <p>Fitur Aplikasi Buku Tamu (PHP Native) : </p>
+                  <div class="card-group">
+                    <ul class="navbar-nav navbar-nav-scroll">
+                      <ol type="1">
+                        <li>Laporan</li>
+                        <li>Pengunjung</li>
+                      </ol>
+                    </ul>
+                  </div>
+                  <div class="card-footer">
+                    <div class="text-end">
+                      <a href="https://github.com/IkoAlmasDevGame/buku-tamu" target="_blank" class="btn btn-primary" aria-current="page">
+                        Go To Page
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!-- Layout 3 -->
+    <!-- Layout Finish -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
   </body>
+
 </html>

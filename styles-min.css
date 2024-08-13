@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, section {
+    scroll-behavior: smooth;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.bounce {
+    display: inline-block;
+    animation: bounce 2s infinite;
+}
+
+.min-vh-99 {
+    min-height: 99vh;
+}
+
+.icon-youtube:hover {
+    box-shadow: 1px white;
+    border: 1px white solid;
+    border-radius: 9px;
+}
+
+.fa-youtube {
+    color: rgb(255, 0, 0);
+    box-shadow: 1px 1px 1px 1px wheat;
+}
+
+.fa-youtube:hover {
+    color: rgb(255, 200, 200);
+    box-shadow: 1px 1px 1px 1px wheat;
+}
+
+.fa-github {
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 1px 1px wheat;    
+}
+
+.fa-github:hover {
+    color: rgb(100, 100, 100);
+    box-shadow: 1px 1px 1px 1px rgb(100, 100, 100);
+}
+
+.icon:hover {
+    border: 1px black solid;
+    border-radius: 15px;
+}
